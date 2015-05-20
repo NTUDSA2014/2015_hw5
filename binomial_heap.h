@@ -72,7 +72,7 @@ class BinomialHeap {
 
         /* merge all elements in the binomial heap b into *this, and clear the binomial heap b.
          *
-         * INPUT:   b: a pointer of BinomialHeap
+         * INPUT:   b: a reference of BinomialHeap
          */
         void merge(BH &b) {
             // write your code here.
