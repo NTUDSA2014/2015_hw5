@@ -95,7 +95,7 @@ class BinomialHeap {
                 T &max_element = m_r.first;
                 BH &remainder = m_r.second;
 
-                size -= trees[max_tree]._size;
+                size -= trees[max_tree].size();
                 trees[max_tree] = nullptr;
                 merge(remainder);
                 return max_element;
